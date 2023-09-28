@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 10vw 30vw;
+  background: linear-gradient(45deg, #eecfba, #c5dde8);
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+  gap: 1vw;
+}
+
+button {
+  display: block;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  background: #d6dbde;
+  border: solid 0.5px;
+}
+
+img {
+  margin: 40px 0;
+  max-width: 300px;
+}
